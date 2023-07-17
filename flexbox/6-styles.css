@@ -208,6 +208,7 @@
     list-style: none;
     text-align: center;
     display: flex;
+    
   }
   
   .nav .nav-item {
@@ -216,6 +217,9 @@
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     margin: var(--nav-item-margin);
+  }
+  .nav .nav-item + .nav-item {
+
   }
   
   .nav .nav-link {
